@@ -4,7 +4,6 @@ dist/
 build/
 target/
 *.env
-.env.*
 !.env.example
 apps/mobile/coverage/
 
@@ -40,3 +39,4 @@ packages/sdk/docs/
 
 app/apps/mobile/components/__snapshots__/
 app/apps/mobile/components/__tests__/
+config.bat

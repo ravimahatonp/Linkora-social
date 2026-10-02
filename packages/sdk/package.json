@@ -43,7 +43,7 @@
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json",
+    "build": "node init && tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json",
     "typecheck": "tsc --noEmit",
     "docs": "typedoc --out docs src/index.ts --tsconfig tsconfig.json",
     "test": "jest",
